@@ -144,6 +144,7 @@ function exportExcel(datasource, fileName = '未命名') {
 					},
 					next.type === 'd'
 						? {
+								t: 'n',
 								z: 'yyyy-mm-dd hh:mm:ss',
 						  }
 						: {}
